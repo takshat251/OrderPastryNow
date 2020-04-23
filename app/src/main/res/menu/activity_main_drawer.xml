@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/order"
+
+            android:title="Order Pastry" />
+        <item
+            android:id="@+id/menu"
+
+            android:title="View Menu" />
+        <item
+            android:id="@+id/offers"
+
+            android:title="Offers Just For You" />
+        <item
+            android:id="@+id/coins"
+
+            android:title="Coins" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/help"
+
+                android:title="Get Help" />
+            <item
+                android:id="@+id/rate"
+
+                android:title="Rate Us Now" />
+        </menu>
+    </item>
+</menu>
